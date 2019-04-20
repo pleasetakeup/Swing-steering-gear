@@ -1,8 +1,10 @@
+
 # Swing-steering-gear
+
 ## Table of Contents
-*[about Swing-steering-gear](#about Swing-steering-gear)
+*[about-Swing-steering-gear](#about Swing-steering-gear)
 *[function](#function)
-*[external conditions](#external conditions)
+*[external-conditions](#external conditions)
 -------------------------------------------------------------
 ##about Swing-steering-gear
 
