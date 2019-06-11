@@ -35,7 +35,7 @@ To use this library, first download the library file, paste it into the \Arduino
      * @param The number of pages you want to read the data.
      * @return a page of data 
      */   
-     String readData(int page);
+String readData(int page);
 	 
 	/*
      * @brief reads a data from the page which you want .
@@ -43,7 +43,7 @@ To use this library, first download the library file, paste it into the \Arduino
 	 * @param num: the offset of the data that you want. 
      * @return a data from the card. 
      */
-	 int  readData(int page, uint8_t num);
+int  readData(int page, uint8_t num);
 	 
 	/*
      * @brief write a data to card  .
@@ -51,33 +51,33 @@ To use this library, first download the library file, paste it into the \Arduino
 	 * @param num:the offset of the data . 
 	 * @param data:the data content.
      */  
-	 void  writeData (int page, uint8_t num ,uint8_t data);
+void  writeData (int page, uint8_t num ,uint8_t data);
 	 
 	/*
      * @brief find out if there is a card. 
 	 * @return True means find out a card.
      */ 
-	 bool  scan(void);
+bool  scan(void);
 	 
 	/*
      * @brief find out if there is a specific card.
      * @param a string of card Numbers.
      * @return True means success.
      */   
-	 bool  scan(String uid);
+bool  scan(String uid);
 	 
 	/*
      * @brief get the id of the card .
      * @return  the card's id.
      */  
-     String  readUid();
+String  readUid();
 	 
 	 /*
      * @brief write sixteen data on the card.
      * @param block :The number of pages you want to write data on.
 	 * @param data[]:the name of arry name which has sixteen data . 
      */  
-	 void  writeData(int block, uint8_t data[]);
+void  writeData(int block, uint8_t data[]);
 	 
 ```
 
