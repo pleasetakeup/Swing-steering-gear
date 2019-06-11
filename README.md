@@ -83,7 +83,7 @@ To use this library, first download the library file, paste it into the \Arduino
 
 ## Compatibility
 
-MCU                | iic          | uart  
+MCU                | iic          | uart         |
 ------------------ | :----------: | :----------: |-----
 ESP32              |      √       |      √       |             
 micro:bit          |      √       |              |              
